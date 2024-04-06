@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap CSS -->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+    crossorigin="anonymous">
+<!-- Bootstrap icons CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+<!-- MapBox CSS -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+<!-- style.css -->
+    <link rel="stylesheet" href="Goldbug.css" />
+    <title>Goldbug</title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th?id=OIP.ZzPkNrFvgZcCMEHVY5-DmQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2">
+</head>
+<body>
+<!-- Start of navbar-->
+<div id = "start">
+<nav id = "navbar" class="navbar navbar-expand-lg">
+        <img id="adjust" src="https://th.bing.com/th/id/OIP.5-cL8n9KBlR3SfPIzU6s1QHaFG?w=257&h=180&c=7&r=0&o=5&dpr=2.2&pid=1.7"/>
+          <div class="container">
+            <a href="#"class="navbar-brand h2 text-light">Goldbug</a>
+              <i class="bi text-light bi-bug-fill h2"></i>
+              <button class="navbar-toggler"type="button" data-bs-toggle="collapse"data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                          <a href="#submission" class="nav-link h4 text-light">Submission</a>
+                      </li>
+                    <li class="nav-item">
+                        <a href="#Gold" class="nav-link h4 text-light">About us</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#Archive" class="nav-link h4 text-light">Archive</a>
+                    </li>
+                      <li class="nav-item">
+                        <button class="btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#login">Login</button> 
+                        <button class="btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#signup">Signup</button>
+                      </li>
+                  </ul>
+            </div>
+</nav>
+<!--End of Navbar-->
+<!--Start of first Submission main-->
+<section id = "submission" class = "Natural text-light">
+    <div class = "text-center"> 
+        <h2 class="text-uppercase text-white-70">Submissions</h2>
+            <div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            </div>   
+        <button class="btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#writing">writing</button>
+        <button class="btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#Art">art</button>
+        <div><br><br></div>
+    </div>
+</section>
+</div>
+<!--title intro-->
+<section id = "Gold" class="p-5">
+    <div class="row justify-content-between align-items-center">
+    <div class="col">
+        <b class="title p-lg-5"> Gold Bug</b>
+        <br><br>
+        <p class="lead"> Let all of us be in peace, and be aware of the sadness or happpiness in each other's lives</p>
+    </div>
+    <div class="col">
+        <img class="titleImage" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2">
+    </div>
+    </div>
+</section>
+<!--intro section-->
+<section class="text-dark bg-success text-center">
+    <div class = "text-center">
+        <b class="title">Intro</b>
+        <br>
+        <p class="lead"> Let all of us be in peace, and be aware of the sadness or happpiness in each other's lives</p>   
+    </div>
+        <div class="d-md-flex">
+            <div class="p-3 row-cols-md-4">
+                <img class="titleImage m-1" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2">
+                <img class="titleImage m-1" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2">
+                <img class="titleImage m-1" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2">
+        </div>
+    </div>
+</section>
+<!--Writing section-->
+<section id="Archive" class="p-5">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col p-5">
+                <b class="h1"> About Writing </b>
+                <br><br>
+                <p class="lead"> Let all of us be in peace, and be aware of the sadness or happpiness in each other's lives</p>
+                <a href="a"class="btn btn-outline-warning"><i class="bi bi-chevron-right">Read more</i></a>
+            </div>
+            <div class="col">
+                <img src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Art section-->
+<section id="art" class="p-5">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col">
+                <img class= "Frame" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+            </div>
+            <div class="col p-5">
+                <b class="h1"> About Art </b>
+                <br><br>
+                <p class="lead"> Let all of us be in peace, and be aware of the sadness or happpiness in each other's lives</p>
+                <a href="a"class="btn btn-outline-warning"><i class="bi bi-chevron-right">Read more</i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Others-->
+<section id="others" class="p-5">
+    <div class="container">
+        <div class="row justify-content-between align-items-center"> 
+        <div class="col p-5">
+            <b class="h1"> Others </b>
+            <br><br>
+            <p class="lead"> Let all of us be in peace, and be aware of the sadness or happpiness in each other's lives</p>
+        </div>
+        <div class="col">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aEWfPtxFm70?si=onJ5Dumd_F-BGG1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
+</section>
+<!--pics-->
+<section id="pics">
+    <div class="row-cols-lg-5 p-4 text-center">
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+        <img class= "round" src="https://th.bing.com/th?id=OIP.XiPVZcQ0TmCs7EXYHNXh1wHaH0&w=243&h=256&c=8&rs=1&qlt=90&o=6&dpr=2.2&pid=3.1&rm=2" class="img-fluid"/>
+    </div>
+</section>
+<!--Footer with cited scources or scources used in the website-->
+<footer class="p-5 bg-danger text-white text-center position-relative">
+    <div class="container">
+        <h5>Thank you!</h5>
+        <br><br>
+        <h4>Contact info:</h4>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle text-light h1"></i>
+        </a>
+    </div>
+</footer>
+<!--Modal pop ups-->
+<!--log in-->
+<div class="modal fade" id="login"tabindex="-1" aria-labelledby="enrollLabel"aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-light p-2 ">
+                <h5 class="modal-title" id="enrollLabel">Login</h5>
+                <button type="button" class="btn-close"data-bs-dismiss="modal"aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Login</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label"> Username: </label>
+                        <input type="text" class="form-control" id="first-name" /> 
+                    </div>
+                    <div class="mb-3"></div>
+                        <label for="first-name" class="col-form-label"> Password: </label>
+                        <input type="password" class="form-control" id="phone" /> 
+                    </div>
+                </form>
+            <div class="footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--sign up-->
+<div class="modal fade" id="signup"tabindex="-1"aria-labelledby="enrollLabel"aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-light p-2 ">
+                <h5 class="modal-title" id="enrollLabel">Signup</h5>
+                <button type="button" class="btn-close"data-bs-dismiss="modal"aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Fill out the forms to signup!</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label"> Username: </label>
+                        <input type="text" class="form-control" id="first-name" /> 
+                    </div>
+                        <label for="first-name" class="col-form-label"> Password: </label>
+                        <input type="password" class="form-control" id="Password" /> 
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label"> Email: </label>
+                        <input type="text" class="form-control" id="email" /> 
+                    </div>
+            </div>
+                </form>
+            <div class="footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal"> Close</button>
+                <button type="button" class="btn btn-outline-dark"> Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Upload your Writing -->
+<div class="modal fade" id="writing"tabindex="-1"aria-labelledby="enrollLabel"aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-light p-2 ">
+                <h5 class="modal-title" id="enrollLabel">Writing</h5>
+                <button type="button" class="btn-close"data-bs-dismiss="modal"aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Submit your writing</p>
+                <form>
+                    <label for="type" size="2" id="text"> Writing Category </label><!--Selecting a Category-->
+                    <select id="type" name="type">
+                        <option value="Fiction">Fiction</option>
+                        <option value="Nonfiction">Nonfiction</option>
+                        <option value="Personal Essay">Personal Essay</option>
+                        <option value="Poetry">Poetry</option>
+                        <option value="Critical Essay">Critical Essay</option>
+                        <option value="other">Other</option> <!--If not on the list then other-->
+                    </select>
+                    <input type="text" id="other" name="other" class="m-2" placeholder="if other"><br>
+                    <label for="loc" class="font-weight-bold" id="text">Your Title:</label><br>
+                    <textarea id="loc" rows="1" cols="20"></textarea><br>
+                    <label for="Des" class="font-weight-bold" id="text">Your Writing:</label><br>
+                    <textarea id="Des" rows="50" cols="50"></textarea>
+                    <br><br>
+                    <input class="bg-info" type="submit" onclick="alert('Yay! Success!')" value="Submit" size="2">
+                    <input type="reset" class="bg-success" size="2">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Upload your Art -->
+<div class="modal fade" id="Art"tabindex="-1"aria-labelledby="enrollLabel"aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-light p-2">
+                <h5 class="modal-title" id="enrollLabel">Art</h5>
+                <button type="button" class="btn-close"data-bs-dismiss="modal"aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Submit your art</p>
+                <form>
+                    <label for="type" size="2" id="text"> Art Category </label><!--Selecting a Category-->
+                    <select id="type" name="type">
+                        <option value="Sculpture">Sculpture</option>
+                        <option value="Painting">Painting</option>
+                        <option value="Digital Media">Digital Media</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="other">Other</option> <!--If not on the list then other-->
+                    </select>
+                    <input type="text" id="other" name="other" class="m-2" placeholder="if other"><br>
+                    <label for="loc" class="font-weight-bold" id="text">Your Title:</label><br>
+                    <textarea id="loc" rows="1" cols="20"></textarea><br>
+                    <input type="file" id="myFile" name="filename">
+                    <br><br>
+                    <input class="bg-info" type="submit" onclick="alert('Yay! Success!')" value="Submit" size="2">
+                    <input type="reset" class="bg-success" size="2">
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
+  <!--End of footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+  crossorigin="anonymous"> </script>
+  <!--mapbox link-->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+  <script>
+      mapboxgl.accessToken="pk.eyJ1IjoiZ2VsaW9uZSIsImEiOiJja3NodGFkbjYxeHJmMzBvbXU5Z2YyNGJ5In0.GOtSXTT-PHy3rC08cp35ww"
+      var map = new mapboxgl.Map({ container:"map", style:'mapbox://styles/mapbox/satellite-streets-v11', center: [-122.200676, 47.610378], zoom:10,
+  })
+  </script>
+  </body>
+  </html>

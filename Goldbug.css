@@ -1,0 +1,72 @@
+#navbar {
+    overflow: hidden;
+    display: flex;
+    border-bottom: white;
+    border-width: 2px;
+    border-style: solid;
+} 
+#adjust{
+    height: 85px;
+    width: 160px;
+}
+#start{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/OIP.WziS4Pe0JO2b0GdPhQcKzgHaFj?w=250&h=187&c=7&r=0&o=5&dpr=2.2&pid=1.7");
+    color:rgb(32, 25, 54);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#navmenu{
+    overflow: hidden;
+}
+.title{
+    font-size: 60px;
+    margin-left: auto; 
+}
+.titleImage{
+    margin-right: auto;
+}
+.Frame{
+    border: 6px solid #000000;
+    background: #838382;
+    margin: 10px;
+    padding: 10px;
+}
+.round{
+    border-radius: 75px 75px;
+    border: 3px solid #000000;
+}
+#Gold{
+    background-color: gold;
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#Archive{
+    background-color:aquamarine;
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#art{
+    background-color:cornflowerblue;
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#others{
+    background-color:rgb(39, 80, 155);
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#pics{
+    background-color:rgb(23, 93, 225);
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
